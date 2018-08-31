@@ -1,6 +1,6 @@
-import {GET_CUSTOMERS} from '../actions/constants'
+import { GET_CUSTOMERS } from '../actions/constants'
 
-const customerReducer = (state = [], {type, payload}) => {
+const customerReducer = (state = [], { type, payload }) => {
     switch (type) {
       case GET_CUSTOMERS:
         return payload
